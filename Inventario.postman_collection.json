@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "2a3ae5e9-8608-4e02-bab1-c962412e913e",
+		"name": "Inventario",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTI0YjhlZWEwZjYxMTc3YjkyYzFiZTA1M2ZhM2ZmMjg5NGI1NmU0MTg2NDI5MTNlODc1OWZmMzJlYzg0YzFmMmY5OWFkZTEyOTMxMGY3NzgiLCJpYXQiOjE2Mzc3ODYxNjAuNDE1MTc5LCJuYmYiOjE2Mzc3ODYxNjAuNDE1MTgzLCJleHAiOjE2NjkzMjIxNjAuNDA5MDA0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.AnCKyGFoHwity6-rbU_w3qlA5JRO3ZcSQMARSjrJJjWyUt29crWo_XIXuVsVvzh7-BtvJf4IINqhklkTjMuH3aq0Zi7WChR3XaZ5OEUsY2Jh37CTr92y2K6byFHgDvtB467Wuk10prLuQx0HQOCKxfbeDnSM3HtJBCpko61A3ID189f2qHFFwObntlZdAL_bgep-TGEhnja2QrCzWAwzCZN-7C0Id2NInVqNTINBoClmS3zE-qj3hbXuZNw3OMc34YWCSsKKXw504YPeRq2Fb9N24wA4skTXb9m7db_O49vY-sr0PZKOhpA_sqjChv4h_LqAihEwOg1dwevDMND3qjU2RjdsLDX_B_Ifm1kQM3dWvR4PeYjuzM9M_7Encb7aFv7VKHTUNtqZTQVPpzdY0sQAdBqimlZkZA6xYUdHKJWVDH5jn3_E9plehZAd_qB78MmNegGagh8K3NrFT8EmWfmHSpOsIxFhO0LkE0AC9tUmC1U1rQBvs6h0tLBCeOvurtapKnTyrJiy6ODjUo2Yx-2CzhzQ5bkS5ve16Dpzw__BLcJLjKqsGTW5GkANUsvLo7AXVEJJXfpH0vy5UIj4c18OmREXKbF7m7L_xtr6jKTxsIga6xiTFS5UZ6EQ1vkH2JTLUSYndoQ6y82ri38t8Ok4XjdRzWKDVYvuDIEUb8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "inventarios.test/api/inventarios",
+					"host": [
+						"inventarios",
+						"test"
+					],
+					"path": [
+						"api",
+						"inventarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTI0YjhlZWEwZjYxMTc3YjkyYzFiZTA1M2ZhM2ZmMjg5NGI1NmU0MTg2NDI5MTNlODc1OWZmMzJlYzg0YzFmMmY5OWFkZTEyOTMxMGY3NzgiLCJpYXQiOjE2Mzc3ODYxNjAuNDE1MTc5LCJuYmYiOjE2Mzc3ODYxNjAuNDE1MTgzLCJleHAiOjE2NjkzMjIxNjAuNDA5MDA0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.AnCKyGFoHwity6-rbU_w3qlA5JRO3ZcSQMARSjrJJjWyUt29crWo_XIXuVsVvzh7-BtvJf4IINqhklkTjMuH3aq0Zi7WChR3XaZ5OEUsY2Jh37CTr92y2K6byFHgDvtB467Wuk10prLuQx0HQOCKxfbeDnSM3HtJBCpko61A3ID189f2qHFFwObntlZdAL_bgep-TGEhnja2QrCzWAwzCZN-7C0Id2NInVqNTINBoClmS3zE-qj3hbXuZNw3OMc34YWCSsKKXw504YPeRq2Fb9N24wA4skTXb9m7db_O49vY-sr0PZKOhpA_sqjChv4h_LqAihEwOg1dwevDMND3qjU2RjdsLDX_B_Ifm1kQM3dWvR4PeYjuzM9M_7Encb7aFv7VKHTUNtqZTQVPpzdY0sQAdBqimlZkZA6xYUdHKJWVDH5jn3_E9plehZAd_qB78MmNegGagh8K3NrFT8EmWfmHSpOsIxFhO0LkE0AC9tUmC1U1rQBvs6h0tLBCeOvurtapKnTyrJiy6ODjUo2Yx-2CzhzQ5bkS5ve16Dpzw__BLcJLjKqsGTW5GkANUsvLo7AXVEJJXfpH0vy5UIj4c18OmREXKbF7m7L_xtr6jKTxsIga6xiTFS5UZ6EQ1vkH2JTLUSYndoQ6y82ri38t8Ok4XjdRzWKDVYvuDIEUb8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "inventarios.test/api/auth/logout",
+					"host": [
+						"inventarios",
+						"test"
+					],
+					"path": [
+						"api",
+						"auth",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTI0YjhlZWEwZjYxMTc3YjkyYzFiZTA1M2ZhM2ZmMjg5NGI1NmU0MTg2NDI5MTNlODc1OWZmMzJlYzg0YzFmMmY5OWFkZTEyOTMxMGY3NzgiLCJpYXQiOjE2Mzc3ODYxNjAuNDE1MTc5LCJuYmYiOjE2Mzc3ODYxNjAuNDE1MTgzLCJleHAiOjE2NjkzMjIxNjAuNDA5MDA0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.AnCKyGFoHwity6-rbU_w3qlA5JRO3ZcSQMARSjrJJjWyUt29crWo_XIXuVsVvzh7-BtvJf4IINqhklkTjMuH3aq0Zi7WChR3XaZ5OEUsY2Jh37CTr92y2K6byFHgDvtB467Wuk10prLuQx0HQOCKxfbeDnSM3HtJBCpko61A3ID189f2qHFFwObntlZdAL_bgep-TGEhnja2QrCzWAwzCZN-7C0Id2NInVqNTINBoClmS3zE-qj3hbXuZNw3OMc34YWCSsKKXw504YPeRq2Fb9N24wA4skTXb9m7db_O49vY-sr0PZKOhpA_sqjChv4h_LqAihEwOg1dwevDMND3qjU2RjdsLDX_B_Ifm1kQM3dWvR4PeYjuzM9M_7Encb7aFv7VKHTUNtqZTQVPpzdY0sQAdBqimlZkZA6xYUdHKJWVDH5jn3_E9plehZAd_qB78MmNegGagh8K3NrFT8EmWfmHSpOsIxFhO0LkE0AC9tUmC1U1rQBvs6h0tLBCeOvurtapKnTyrJiy6ODjUo2Yx-2CzhzQ5bkS5ve16Dpzw__BLcJLjKqsGTW5GkANUsvLo7AXVEJJXfpH0vy5UIj4c18OmREXKbF7m7L_xtr6jKTxsIga6xiTFS5UZ6EQ1vkH2JTLUSYndoQ6y82ri38t8Ok4XjdRzWKDVYvuDIEUb8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\":\"Kitzia\",\n    \"password\":\"algo\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "inventarios.test/api/auth/login",
+					"host": [
+						"inventarios",
+						"test"
+					],
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZTI0YjhlZWEwZjYxMTc3YjkyYzFiZTA1M2ZhM2ZmMjg5NGI1NmU0MTg2NDI5MTNlODc1OWZmMzJlYzg0YzFmMmY5OWFkZTEyOTMxMGY3NzgiLCJpYXQiOjE2Mzc3ODYxNjAuNDE1MTc5LCJuYmYiOjE2Mzc3ODYxNjAuNDE1MTgzLCJleHAiOjE2NjkzMjIxNjAuNDA5MDA0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.AnCKyGFoHwity6-rbU_w3qlA5JRO3ZcSQMARSjrJJjWyUt29crWo_XIXuVsVvzh7-BtvJf4IINqhklkTjMuH3aq0Zi7WChR3XaZ5OEUsY2Jh37CTr92y2K6byFHgDvtB467Wuk10prLuQx0HQOCKxfbeDnSM3HtJBCpko61A3ID189f2qHFFwObntlZdAL_bgep-TGEhnja2QrCzWAwzCZN-7C0Id2NInVqNTINBoClmS3zE-qj3hbXuZNw3OMc34YWCSsKKXw504YPeRq2Fb9N24wA4skTXb9m7db_O49vY-sr0PZKOhpA_sqjChv4h_LqAihEwOg1dwevDMND3qjU2RjdsLDX_B_Ifm1kQM3dWvR4PeYjuzM9M_7Encb7aFv7VKHTUNtqZTQVPpzdY0sQAdBqimlZkZA6xYUdHKJWVDH5jn3_E9plehZAd_qB78MmNegGagh8K3NrFT8EmWfmHSpOsIxFhO0LkE0AC9tUmC1U1rQBvs6h0tLBCeOvurtapKnTyrJiy6ODjUo2Yx-2CzhzQ5bkS5ve16Dpzw__BLcJLjKqsGTW5GkANUsvLo7AXVEJJXfpH0vy5UIj4c18OmREXKbF7m7L_xtr6jKTxsIga6xiTFS5UZ6EQ1vkH2JTLUSYndoQ6y82ri38t8Ok4XjdRzWKDVYvuDIEUb8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"descripcion\":\"moto2\",\n    \"marca\":\"toyota\",\n    \"numero_llantas\": 3,\n    \"potencia_motor\":950}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "inventarios.test/api/inventarios",
+					"host": [
+						"inventarios",
+						"test"
+					],
+					"path": [
+						"api",
+						"inventarios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
